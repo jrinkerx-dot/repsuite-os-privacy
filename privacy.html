@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for RepSuite OS, an offline-first exercise and strength log.">
+  <meta name="theme-color" content="#0b0d10">
+  <title>RepSuite OS Privacy Policy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-policy-version="1.5" data-policy-source-sha256="2e1710d7a431d6bd9975e35615940ce9c3428943ae397179b89701dcb7bfaaa4">
+  <main class="shell policy">
+    <nav aria-label="Policy navigation"><a href="index.html">← Privacy home</a></nav>
+    <p class="eyebrow">PRIVACY POLICY</p>
+    <h1>RepSuite OS Privacy Policy</h1>
+    <p class="meta">Effective November 9, 2026 · Version 1.5</p>
+    <p class="lead">RepSuite OS is an offline-first exercise and strength log. Fitness information stays in app-private storage on the user&#39;s device unless the user explicitly exports or shares it. The first public release has no active purchases, trials, advertising, developer analytics, or RepSuite OS cloud account.</p>
+    <section id="scope">
+      <h2>Who this policy covers</h2>
+      <p>This policy applies to RepSuite OS, offered by Rinker Digital Ventures. Private-beta builds may still display the name Workout Tracker. No RepSuite OS account is required for ordinary workout logging.</p>
+      <p>RepSuite OS does not include advertising SDKs, developer analytics, automatic workout-data cloud synchronization, or automatic remote crash reporting. A user may create a privacy-limited diagnostic report locally, review it, and choose whether and where to share it.</p>
+    </section>
+<section id="device-data">
+      <h2>Information stored on your device</h2>
+      <p>The app stores routines, schedules, workout history, exercises, sets, weights, repetitions, effort ratings, notes, goals, substitutions, strength records, training maxes, meet records, equipment profiles, readiness and recovery check-ins, bodyweight and other body measurements, settings, and backup history in app-private local storage.</p>
+      <p>Optional progress photos and personal exercise videos are stored as managed local files. Imported progress photos are re-encoded into managed JPEG copies to remove source EXIF metadata such as GPS when that workflow is used. The app does not automatically upload workout records, health-related entries, photos, or personal videos to Rinker Digital Ventures.</p>
+    </section>
+<section id="billing">
+      <h2>Free-first release and future optional purchases</h2>
+      <p>The first public release is free-first. It does not offer a purchase, subscription, lifetime purchase, free trial, purchase restoration, or subscription-management entry point. Its compile-time release mode does not initialize the Google Play Billing connection, query Play products, or send purchase tokens to Rinker Digital Ventures.</p>
+      <p>Billing and signed-entitlement code is preserved for a possible later release, but no customer billing backend is deployed or used by this release. RepSuite OS does not receive card, bank-account, purchase-token, order, entitlement, refund, or subscription-lifecycle data from this release.</p>
+      <p>Before purchases can be enabled, Rinker Digital Ventures must deploy and validate the verifier, configure products in Google Play, update this policy and Google Play Data safety disclosures, and release a separately reviewed app update. A future policy will describe the actual purchase data, providers, retention, security, deletion, and user choices before that processing begins.</p>
+    </section>
+<section id="purposes">
+      <h2>Why information is processed</h2>
+      <p>On-device information is processed to provide the features the user chooses, including workout logging, routines, analytics, timers, progress records, program tools, exports, backups, and restoration.</p>
+      <p>This release does not process purchase-verification information. No fitness information is sold or used for advertising.</p>
+    </section>
+<section id="permissions">
+      <h2>Android permissions and connected services</h2>
+      <p>Camera access is requested only after the user chooses to take a progress photo. Android photo and document pickers provide access to items the user selects for import, backup, restore, export, or sharing. Legacy read or write storage permissions are limited to older Android versions where required by the platform or included libraries.</p>
+      <p>Notification, vibration, alarm, wake-lock, boot-recovery, cloud-messaging receiver, and launcher-badge capabilities support device-scheduled rest alerts, reminders, notification recovery, and badge display. The current app does not register an account-based remote workout notification service. Core logging remains available when optional notification access is declined, although background alert timing may be less precise.</p>
+      <p>Android network access supports user-requested links and platform components, but the free-first build does not initialize Google Play Billing or contact a RepSuite OS account, analytics, advertising, purchase-verification, or workout-sync service. The app does not request location, contacts, microphone, advertising ID, Health Connect, body sensors, or activity-recognition permission.</p>
+    </section>
+<section id="storage-security-retention">
+      <h2>Storage, security, and retention</h2>
+      <p>Local records and managed media remain until the user edits or deletes them, clears app storage, or uninstalls the app. Android app-private storage and the device&#39;s security controls protect those files; RepSuite OS does not claim that its local SQLite database or exported files have separate application-level encryption.</p>
+      <p>The public Android release disables Android-managed automatic backup and supplies explicit rules excluding app-private root files, managed files, databases, preferences, and app-specific external files from Android cloud backup and device-to-device transfer. Equivalent legacy backup exclusions are also included. Users moving to another device should create and verify a user-controlled .wta backup, protect that exported file, and restore it explicitly. Android and device manufacturers control the operating-system backup implementation, so Rinker Digital Ventures cannot guarantee the behavior of modified, unsupported, or nonstandard system software.</p>
+      <p>Because the free-first release does not use a RepSuite OS backend, Rinker Digital Ventures does not create customer billing-verification database records, billing security logs, or billing backups for this release. Prepared Google Cloud infrastructure and retention code are inactive and are not a source of customer data.</p>
+      <p>Google Play and GitHub may retain ordinary store-distribution or privacy-page request information under their own policies. RepSuite OS local data remains until the user edits or deletes it, clears app storage, or uninstalls the app; exported copies remain wherever the user placed them until the user removes them.</p>
+    </section>
+<section id="exports">
+      <h2>Backups, exports, and sharing</h2>
+      <p>RepSuite OS does not use Android-managed automatic backup for the public release. Information leaves app-private storage through an app feature only when the user chooses an export, .wta backup, import, photo or routine share, opens an external link, or explicitly shares a diagnostic report and selects a destination.</p>
+      <p>Portable .wta backups include workout data and managed progress photos. Personal exercise videos are included only when the user enables the complete-backup option. JSON and CSV exports do not include photo or video files. Portable archives and exports are not promised to be encrypted; they can contain sensitive fitness information, and the user is responsible for protecting them and deleting copies from destinations that are no longer trusted.</p>
+      <p>Destination apps, storage providers, messaging services, and recipients process shared files under their own privacy practices. Restoring a workout backup does not activate a purchase or contact a billing service.</p>
+    </section>
+<section id="deletion-rights">
+      <h2>Access, correction, deletion, and privacy requests</h2>
+      <p>Users can view and correct app records, delete supported workout, bodyweight, photo, video, and other entries, and export readable or portable copies. Clearing Android app storage or uninstalling removes local information that was not exported. The app cannot delete copies the user previously sent to another app, person, device, or storage provider.</p>
+      <p>For privacy questions, contact Rinker Digital Ventures at JRinkerx@gmail.com. Do not send a password, payment-card number, workout notes, photos, personal videos, or exported archive by email. This free-first release creates no RepSuite OS customer account or billing-verification record for the developer to retrieve.</p>
+      <p>Depending on jurisdiction, users may have rights to request access, correction, deletion, restriction, or a copy of personal information processed by the developer. Requests receive an explanation where required by law; device-local data remains under the user&#39;s control through the app and Android storage controls.</p>
+    </section>
+<section id="third-parties">
+      <h2>Third-party providers</h2>
+      <p>Google Play processes store-account, app-distribution, device, security, download, and update information under Google&#39;s privacy terms. This free-first release does not ask Google Play for purchase products and does not send purchase information to Rinker Digital Ventures.</p>
+      <p>If this policy is hosted with GitHub Pages, GitHub may process normal website request and security-log information under GitHub&#39;s privacy terms. The policy website contains no advertising, analytics, tracking pixels, embedded media, or third-party JavaScript. The prepared Google Cloud billing architecture is not used by this release.</p>
+      <p>When a user explicitly shares or exports information, the selected destination and its provider receive that information. Rinker Digital Ventures does not sell personal information and does not share workout or health-related content with advertisers.</p>
+    </section>
+<section id="health-children">
+      <h2>Health information and children</h2>
+      <p>RepSuite OS is an activity-and-fitness log, not a medical device. It does not diagnose injury, disease, readiness, body composition, or a medical condition, and its deterministic estimates are not medical advice.</p>
+      <p>RepSuite OS is intended for adults age 18 and older. It is not designed or directed to children. The free-first release does not create a RepSuite OS account or transmit workout, bodyweight, photo, or personal-video content to Rinker Digital Ventures.</p>
+    </section>
+<section id="changes-contact">
+      <h2>Policy changes and contact</h2>
+      <p>Material changes to data collection, use, sharing, or retention require an updated policy, matching in-app text, and updated Google Play declarations where applicable. The policy version and effective date appear at the top of both the app screen and public page.</p>
+      <p>Developer: Rinker Digital Ventures. Support and privacy contact: JRinkerx@gmail.com. Public privacy-policy URL: https://jrinkerx-dot.github.io/repsuite-os-privacy/privacy.html.</p>
+    </section>
+    <footer>
+      <p>Developer: Rinker Digital Ventures</p>
+      <p>Support and privacy contact: <a href="mailto:JRinkerx@gmail.com">JRinkerx@gmail.com</a></p>
+      <p>Android package: com.local.workouttracker</p>
+    </footer>
+  </main>
+</body>
+</html>
